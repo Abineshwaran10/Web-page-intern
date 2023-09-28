@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5a3232; /* Background color for the navbar */
+    padding: 18px 20px; /* Adjust padding as needed */
+    color: #fff; /* Text color for the navbar items */
+}
+
+/* Style the left side */
+.left {
+    display: flex;
+    align-items: center;
+    padding-left: 2cm;
+    font-size:2.5rem;
+}
+
+.timezone {
+    font-weight: bold; /* Make the text bold */
+    margin-right: 20px; /* Adjust margin as needed */
+}
+
+/* Style the right side */
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.brand {
+    margin-right: auto; /* Push the brand name to the right */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Style the menu items */
+.menu li {
+    display: inline;
+    margin-right: 20px; /* Adjust margin as needed */
+}
+span{
+color: #f24f09;
+padding-left: 0.3cm;
+}
+.menu a {
+    text-decoration: none;
+    color: #f30c0c; /* Text color for menu items */
+    position: relative;
+    font-size: 1.3rem;
+    font-weight: 200;
+    font-weight: bold;
+}
+
+.menu a:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -25px; /* Adjust this value for the underline thickness */
+    height: 3px; /* Adjust this value for the underline height */
+    background-color: #bfd7f0; /* Adjust this color to your preference */
+}
+/* Set the background image */
+/* Set the background image */
+.background-image {
+    background-image: url('watch.jpg'); /* Replace 'your-image.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust the height as needed */
+    /* display: flex; */
+    align-items: center;
+    color: #e67777; /* Text color on top of the background image */
+}
+
+/* Style the content */
+.content {
+    background-color: rgba(0, 0, 0, 0); /* No transparency */
+    padding: 50px;
+    padding-top: 6cm;
+    /* border-radius: 10px; */
+    padding-left: 2cm;
+}
+
+/* Content on the left side */
+.left-content {
+    width: 50%; /* Adjust the width as needed */
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Style the buttons */
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background-color: #f5f6f6; /* Button background color */
+    color: #c81010; /* Button text color */
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #666692; /* Adjust the color on hover */
+}
